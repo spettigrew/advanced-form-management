@@ -5,7 +5,7 @@ import AnimalForm from './components/AnimalForm'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <AnimalForm />
     </div>
   )

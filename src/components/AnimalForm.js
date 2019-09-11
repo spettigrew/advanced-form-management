@@ -18,12 +18,10 @@ const AnimalForm = (props) => {
   }
 
   return (
-    <div className="animal-form">
-      <form onSubmit={handleSubmit}>
-        <input type="text" name="species" placeholder="Species" onChange={handleChange} />
-        <button type="submit">Submit</button>
-      </form>
-    </div>
+    <form onSubmit={handleSubmit}>
+      <input type="text" name="species" placeholder="Species" onChange={handleChange} />
+      <button type="submit">Submit</button>
+    </form>
   )
 }
 
